@@ -12,13 +12,7 @@ Time-to-event gBOIN design for late-onset toxicity grades by simulating
 trials. \#\# Installation
 
 You can install the released version of titegboin from
-[CRAN](https://CRAN.R-project.org) with:
-
-``` r
-install.packages("titegboin")
-```
-
-And the development version from [GitHub](https://github.com/) with:
+[GitHub](https://github.com/) with:
 
 ``` r
 # install.packages("devtools")
