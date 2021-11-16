@@ -29,7 +29,6 @@
 #'         (6) the percentage of early stopping without selecting the MTD (\code{pctearlystop}).   
 #'         (7) the average trial duration needed for the trial based on the TITE-gBOIN design (\code{duration})  
 #'         (8)the standard deviation of trial duration needed for the trial based on the TITE-gBOIN design (\code{sdduration})
-#' @import stat  MASS 
 #' @export 
 
 get.oc.tite.gBOIN <- function(target, prob, ncohort, cohortsize, maxt=1, prior.p=NA, accrual=3, maxpen=0.5, 
