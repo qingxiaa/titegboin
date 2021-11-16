@@ -1,16 +1,12 @@
 Package: titegboin
-Title: What the Package Does (One Line, Title Case)
+Title: Obtain the operating characteristics of the Time-to-event gBOIN design for late-onset toxicity grades by simulating trials.
 Version: 0.0.0.9000
-Authors@R: 
-    person(given = "First",
-           family = "Last",
-           role = c("aut", "cre"),
-           email = "first.last@example.com",
-           comment = c(ORCID = "YOUR-ORCID-ID"))
-Description: What the package does (one paragraph).
+Author: Kentaro Takeda, Qing Xia2, Shufang Liu, Alan Rong
+Maintainer: Qing Xia <qingxia0209@gmail.com>, Kentaro Takeda<kentaro.takeda@astellas.com>
+Description: Obtain the operating characteristics of the Time-to-event gBOIN design for late-onset toxicity grades by simulating trials.
 License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.1.1.9000
-Imports: stats
+Imports: stats,MASS 
